@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://unpkg.com/@visactor/vchart/build/index.min.js"></script>
+</head>
+<body>
+  <div id="chart" style="width:600px;height:400px;"></div>
+  <script>
+    const spec = { /* 同上文配置 */ };
+    const chart = new VChart(spec, { dom: 'chart' });
+    chart.renderAsync();
+  </script>
+</body>
+</html>
